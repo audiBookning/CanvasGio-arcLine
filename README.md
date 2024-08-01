@@ -1,8 +1,17 @@
 # CanvasGio arcLine bug
 
-some example code and thoughts about the ArcLine method of golang giocanvas package
+|| NO LONGER RELEVANT ||
+
+|| BUG CORRECTED IN A LATTER VERSION OF GIOCANVAS ||
+
 
 ## Notes
+
+some example code and thoughts about the ArcLine method of golang giocanvas package
+
+issue closed: https://github.com/ajstarks/giocanvas/issues/12
+
+## Examples
 
 - `go run .\cmd\arcLine01\`
     - Original arcLine method has a memory leak when angle1 and angle2 have the same value or is their difference is too small.
@@ -21,9 +30,13 @@ some example code and thoughts about the ArcLine method of golang giocanvas pack
     - similar to the arcLine03, but with more fluff.
     - Just some quick teaking with the animation and stuff.
 
+- `go run .\cmd\arcLine05\`
+    - Just a fun visualization made by the author of giocanvas in feedback to the issue.
+    - copied here for archive purposes.
 
 ##  links 
 
 https://github.com/ajstarks/giocanvas
+
 https://pkg.go.dev/github.com/ajstarks/giocanvas
 
